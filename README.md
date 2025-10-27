@@ -1,26 +1,64 @@
-## Portfolio-Website
-Portfolio website built using HTML5, CSS3, JavaScript, and jQuery.
+# Tappita Jeevan Prasad — Portfolio Website
 
-<a href="https://jigarsable.netlify.app/" target="_blank">**Visit Now** 🚀</a>
+Static personal portfolio showcasing skills, projects and experience of Tappita Jeevan Prasad (ASIC / VLSI Engineer).
 
+## Features
+- Responsive single-page layout (HTML / CSS / JS)
+- Home, About, Skills, Education, Projects, Experience and Contact sections
+- Particle background and tilt effects (assets included)
+- Contact form (frontend only) and social links
+- Static resume PDF included
 
-## 📌 Tech Stack
-[![HTML](https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white)](https://github.com/jigar-sable/Portfolio-Website/search?l=html)&nbsp;
-[![CSS](https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white)](https://github.com/jigar-sable/Portfolio-Website/search?l=css)&nbsp;
-[![JS](https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)](https://github.com/jigar-sable/Portfolio-Website/search?l=javascript)
-<img alt="jQuery" src="https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white"/>
+## Tech stack
+- HTML5, CSS3, JavaScript
+- Font Awesome icons
+- Optional: particles.js, Vanilla-Tilt, ScrollReveal
 
-### Extras : 
-Particle.js, Typed.js, Tilt.js, Scroll Reveal, Tawk.to, Font Awesome and JSON
+## Project structure
+- index.html — main entry
+- assets/
+  - css/style.css
+  - js/ (script.js, app.js, particles.min.js, etc.)
+  - images/ (profile and other images)
+- ATMOST resume.pdf — resume file
 
-## 📌 Sneak Peek of Main Page 🙈 :
-![mockup720](https://user-images.githubusercontent.com/64949957/124947013-1f682080-e02d-11eb-977e-df3bbd4fa838.png)
-![ss](https://user-images.githubusercontent.com/64949957/159113640-d92665a8-f614-42b3-8456-66b97fc2e651.png)
+## Run locally (Windows)
+No build step required — site is static.
 
+Options:
+1. Quick (open file)
+   - Double-click `index.html` or open it in your browser.
 
-<h2>📬 Contact</h2>
+2. Using Python (recommended for correct relative paths)
+   - Open PowerShell or Command Prompt in project root:
+     python -m http.server 8000
+   - Open http://localhost:8000
 
-Feel free to reach me through the below handles if you'd like to contact me.
+3. Using Node (npx)
+   - npx http-server -p 8000
+   - Open http://localhost:8000
 
-[![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jigar-sablee)
-[![instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/jigarsable.dev)
+4. Using VS Code
+   - Install Live Server extension, open workspace and click "Go Live".
+
+## Deploy to GitHub Pages
+Option A — simple:
+1. Create a new GitHub repo and push this folder to the repository root.
+2. In GitHub repo Settings → Pages, set "Source" to the `main` branch (root) and save.
+3. GitHub will serve your site from username.github.io/repo-name (or the provided URL).
+
+Option B — gh-pages (optional)
+- Install gh-pages and configure scripts if you prefer automated deploys.
+
+## Notes & suggestions
+- Remove duplicate script tags or extra closing tags in `index.html` if you see any console warnings.
+- Update links (resume, images, social profiles) before publishing.
+- If contact form needs server handling, add a backend or use a service (EmailJS, Formspree, etc.).
+
+## License
+MIT — feel free to modify and publish.
+
+## Contact
+- Email: jeevanprasadtappita@gmail.com
+- LinkedIn: https://www.linkedin.com/in/tappita-jeevan-prasad-013758289/
+- GitHub: https://github.com/jeevanprasad-2004
